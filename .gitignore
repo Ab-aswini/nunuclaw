@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Nested bootstrap (old scaffolding)
+nunuclaw-bootstrap/
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NunuClaw runtime
+*.db
+*.log
+sandbox_results.txt
+install_log.txt
+test_results.txt
+
+# Environment
+.env
+.env.local
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
